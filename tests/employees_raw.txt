@@ -1,0 +1,4 @@
+# id | name                 | email                     | dept | hours
+001  | Smith, John          | john.smith@example.com    | ENG  | 40
+002  | Doe, Jane            | jane.doe@example.com      | HR   | 32
+003  | Brown, Alice         | alice.brown@example.com   | FIN  | 37.5

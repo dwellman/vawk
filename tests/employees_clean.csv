@@ -1,0 +1,4 @@
+id,name,email,dept,hours
+001,John Smith,john.smith@example.com,ENG,40
+002,Jane Doe,jane.doe@example.com,HR,32
+003,Alice Brown,alice.brown@example.com,FIN,37.5

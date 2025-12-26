@@ -1,0 +1,11 @@
+---
+description: "Summarize logs by level and optionally per user"
+inputs:
+- "Log line: <timestamp> <level> <user> <message...>"
+outputs:
+- "Plain-text counts: total_lines, INFO, WARN, ERROR; optional per-user breakdown\
+  \ when by_user=1"
+constraints:
+- "POSIX awk only; no gawk extensions; single-pass streaming"
+- "No external commands; handle large files; skip comment/blank lines"
+examples: []
