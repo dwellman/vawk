@@ -1,4 +1,0 @@
-| Date | Sweep | Tests | Status | Who | Notes |
-| --- | --- | --- | --- | --- | --- |
-| 2025-12-26 | Docs structure alignment | not run | Clean | Codex | Added docs index/runbook index/glossary/ADR stubs and moved root docs under docs/. |
-| 2025-12-26 | Coverage + test expansion | `mvn -q test` | Clean | Codex | Added unit tests + jacoco support and prompt test resource; ignored `.vawk/` + `target/`. |

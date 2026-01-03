@@ -7,7 +7,7 @@ Describe what VAWK is for and the primary user-facing flows. This is the entry d
 
 ## 2) Scope
 - Covers: high-level goals, main commands/flows, proof-of-work expectations.
-- Excludes: deep implementation details (see `architecture.md`), prompt text (see `prompts/`), and RAG source details (see `docs/rag/`).
+- Excludes: deep implementation details (see `docs/reference/architecture/overview.md`), prompt text (see `prompts/`), and RAG source details (see `docs/rag/`).
 
 ## 3) Expectations / Rules
 - Required: POSIX AWK only; no gawk-only features unless explicitly flagged.

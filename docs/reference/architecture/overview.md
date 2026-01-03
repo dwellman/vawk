@@ -7,7 +7,7 @@ Map the major components, data flows, and invariants so changes stay aligned wit
 
 ## 2) Scope
 - Covers: modules, core services, storage/layout, and key paths (chat, generation/refinement, promotion, runtime).
-- Excludes: full prompt text (see `prompts/`), AWK code style (see `docs/java-style.md`), and RAG corpus details (see `docs/rag/`).
+- Excludes: full prompt text (see `prompts/`), AWK code style (see `docs/reference/standards/java-style.md`), and RAG corpus details (see `docs/rag/`).
 
 ## 3) Expectations / Rules
 - Required: POSIX AWK only in generated scripts and tests.
@@ -24,7 +24,7 @@ Map the major components, data flows, and invariants so changes stay aligned wit
 5. **Runtime**: `AwkRunner`, `AwkTestRunner`, `AwkRunRequest/Result`; execute AWK scripts and compare outputs.
 6. **Stores/Repositories**: `ProgramRepository`, `SpecRepository`, `SessionLogRepository`, `TestRepository`, `AgentsFileRepository`, `RagRepository`; persist programs/specs/logs/tests and guarded RAG access.
 7. **Domains**: Plain data holders for specs, programs, session logs, tests, etc.
-8. **Docs/Prompts**: `prompts/` (system/developer/project), `docs/` (overview, architecture, chat, golden paths), `AGENTS.md` as primary project prompt source with optional `vawk.project.md`.
+8. **Docs/Prompts**: `prompts/` (system/developer/project), `docs/reference` (overview/architecture/design/standards), `docs/process` (journal/BUJO/housekeeping), `docs/chat` (golden paths), `AGENTS.md` as primary project prompt source with optional `vawk.project.md`.
 
 ## 5) Data flows (examples)
 - **Chat (one-shot CODE/MIXED)**: CLI → `VawkChatService` → build prompts (system/developer/project/RAG/history + wrapped user) → ChatClient/stub → validate via `SectionValidator` → append NDJSON turns.

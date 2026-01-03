@@ -7,7 +7,7 @@ Define the Java coding standard for VAWK so humans and AI produce consistent, re
 
 ## 2) Scope
 - Covers: formatting baseline, addendum rules, naming, class/method structure expectations.
-- Excludes: build/test commands (see `housekeeping/checklist.md`), docs style (see `docs-style.md`).
+- Excludes: build/test commands (see `docs/process/housekeeping/checklist.md`), docs style (see `docs/reference/standards/docs-style.md`).
 
 ## 3) Expectations / Rules
 - Required: Google Java Style for layout/formatting (`google-java-format` is source of truth).

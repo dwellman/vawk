@@ -7,7 +7,7 @@ Provide a repeatable pre-merge checklist so changes stay consistent and verifiab
 
 ## 2) Scope
 - Covers: formatting, testing, AWK constraints, and logging expectations.
-- Excludes: deep style rules (see `java-style.md`), doc structure (see `docs-style.md`).
+- Excludes: deep style rules (see `docs/reference/standards/java-style.md`), doc structure (see `docs/reference/standards/docs-style.md`).
 
 ## 3) Expectations / Rules
 - Required: Format Java with `google-java-format`.
@@ -27,4 +27,4 @@ Provide a repeatable pre-merge checklist so changes stay consistent and verifiab
 ## 5) Proof-of-work / References
 - Test suite: `mvn -q test`.
 - Logs: `.vawk/chat/*.vawk`, `.vawk/logs/*.json`.
-- Docs: `overview.md`, `architecture.md`, `java-style.md`, `docs-style.md`, `chat/golden-path-pipe-logs.md`.
+- Docs: `docs/reference/overview.md`, `docs/reference/architecture/overview.md`, `docs/reference/standards/java-style.md`, `docs/reference/standards/docs-style.md`, `docs/chat/golden-path-pipe-logs.md`.

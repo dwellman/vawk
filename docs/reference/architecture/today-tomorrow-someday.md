@@ -27,9 +27,9 @@ gen (task) --auto-test
 - Provider/base-URL knobs for true vendor agnosticism (Spring AI props: `SPRING_AI_OPENAI_API_KEY`, `SPRING_AI_OPENAI_BASE_URL`, `vawk.ai.model`, `vawk.ai.use-chat`).
 
 ## Pointers
-- README: `../README.md`
-- Getting started: `../docs/guides/getting-started.md`
-- Prompts/agents: `../prompts/`, `../AGENTS.md`
+- README: `README.md`
+- Getting started: `docs/howto/guides/getting-started.md`
+- Prompts/agents: `prompts/`, `AGENTS.md`
 - Logs: `.vawk/chat/`, jobs/specs in `vawk/jobs/`, test receipts in `.vawk/logs/`
 - Engine: `engine.md`
 - CLI: `cli.md`

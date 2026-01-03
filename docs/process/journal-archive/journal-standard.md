@@ -1,14 +1,16 @@
-# Journal & Proof-of-Work Standard – BuJo for Agents
+# Journal & Proof-of-Work Standard – BuJo for Agents (Legacy)
 
-**BLUF:** `docs/journal/` is the proof-of-work trail for stories and significant changes. Every meaningful change should be logged with who/what/when/evidence/outcome in a tabular, prompt-friendly format. Audience: engineers and AI agents recording work.
+Legacy note: this table-format journal is archived. Current scope/tests entries live in `docs/process/journal.md`, and BUJO logs live under `docs/process/bujo/`.
+
+**BLUF:** `docs/process/journal-archive/` holds the legacy proof-of-work format (table entries). It remains for historical reference only. Audience: engineers and AI agents reviewing legacy logs.
 
 ## 1) Purpose
 Define how BuJo-style journaling documents work so that past decisions and changes are easy to reconstruct and use as context for future work.
 
 ## 2) Location and naming
-- Location: `docs/journal/`.
-- Daily logs: `docs/journal/YYYY-MM-DD.md`.
-- Epic/story logs: `docs/journal/epic-<name>.md` (e.g., `docs/journal/epic-vawk-chat-plan-first.md`).
+- Location: `docs/process/journal-archive/`.
+- Daily logs: `docs/process/journal-archive/YYYY-MM-DD.md`.
+- Epic/story logs: `docs/process/journal-archive/epic-<name>.md` (e.g., `docs/process/journal-archive/epic-vawk-chat-plan-first.md`).
 - Daily = chronological work; epic = story-level summaries cross-referencing daily entries.
 
 ## 3) Document structure
@@ -37,7 +39,7 @@ Define how BuJo-style journaling documents work so that past decisions and chang
 - “Perfect Notes” = short entries with essential facts/decisions/references only.
 
 ## 7) Relationship to planning rails
-- Keep Today/Tomorrow/Someday lists separate (e.g., `docs/journal/planning.md`).
+- Keep Today/Tomorrow/Someday lists separate (see `docs/process/bujo/today-tomorrow-someday.md`).
 - When work moves between rails, note it in the journal entry (e.g., “Moved VAWK-PROJECT-AGENTS-01 from Someday to Today”).
 
 ## 8) Usage by agents
@@ -47,5 +49,5 @@ Define how BuJo-style journaling documents work so that past decisions and chang
 ## 9) Docs, code, and journal together
 - Docs: expectations/design (`docs/`).
 - Code: implementation (`src/`).
-- Journal: proof-of-work/history (`docs/journal/`).
+- Journal: proof-of-work/history (`docs/process/journal.md`).
 - If any are missing or disagree, treat it as a gap to close via doc update, journal entry, or code change.

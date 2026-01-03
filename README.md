@@ -21,7 +21,7 @@ Learn AWK: `docs/book/learn.awk.md`
    - Add the wrapper to your PATH: `export PATH="/path/to/vawk/bin:$PATH"`
    - Then: `vawk chat --one-shot "Explain what FS does in awk"`
 
-See `docs/guides/quickstart.md` for more setup tips (stub vs real model, shell alias, promotion).
+See `docs/howto/guides/quickstart.md` for more setup tips (stub vs real model, shell alias, promotion).
 
 ---
 

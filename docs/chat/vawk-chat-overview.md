@@ -7,7 +7,7 @@ Explain how chat behaves (prompts, intent detection, validation, logging) and ho
 
 ## 2) Scope
 - Covers: prompt layering, intent paths (EXPLAIN vs CODE/MIXED), NDJSON format, promotion outputs, AGENTS usage.
-- Excludes: full RAG corpus details (`docs/rag-index.md`, snippet/book indexes) and Java style rules (`docs/java-style.md`).
+- Excludes: full RAG corpus details (`docs/rag/rag-index.md`, snippet/book indexes) and Java style rules (`docs/reference/standards/java-style.md`).
 
 ## 3) Expectations / Rules
 - Required: POSIX AWK only; CODE must include the header block (# VAWK/# Purpose/# Intent/# Input/# Output).

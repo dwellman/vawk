@@ -1,7 +1,7 @@
 # Agents Guide (VAWK)
 
 ## BUJO + housekeeping
-- Log daily work (if collaborating with other projects) in a BUJO-style `docs/bujo/daily/<YYYY-MM-DD>.md` and capture scope/tests in a journal entry. Keep entries short; migrate unfinished items forward.
+- Log daily work (if collaborating with other projects) in a BUJO-style `docs/process/bujo/daily/<YYYY-MM-DD>.md` and capture scope/tests in `docs/process/journal.md`. Keep entries short; migrate unfinished items forward.
 - Record sweeps/refactors in a housekeeping log if you create one.
 
 ## Patterns (align with Adventure)
