@@ -3,6 +3,7 @@
 VAWK is a plan-first AWK assistant and CLI. It runs AWK programs, chats with layered prompts + RAG, and can promote chat answers into runnable jobs.
 
 Learn AWK: `docs/book/learn.awk.md`
+- https://github.com/dwellman/vawk/blob/main/docs/book/learn.awk.md
 
 ## Features
 - **Chat**: `vawk chat [--one-shot "..."]` with layered system/developer/project prompts, RAG snippets/book context, and intent-aware responses (EXPLAIN vs CODE/MIXED).
