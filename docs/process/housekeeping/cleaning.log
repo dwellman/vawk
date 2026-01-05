@@ -1,0 +1,10 @@
+# Cleaning Log
+
+Last verified: 2026-01-05
+
+| Date | Scope | Commands | Status | Owner | Notes |
+| --- | --- | --- | --- | --- | --- |
+| 2025-12-26 | Docs structure alignment | not run | Clean | Codex | Added docs index/runbook index/glossary/ADR stubs and moved root docs under docs/. |
+| 2025-12-26 | Coverage + test expansion | `mvn -q test` | Clean | Codex | Added unit tests + jacoco support and prompt test resource; ignored `.vawk/` + `target/`. |
+| 2026-01-02 | Docs/process standard alignment | not run | Clean | Codex | Aligned docs to Adventure SOP (process logs, howto/reference layout, updated indexes/standards) and archived legacy journal format. |
+| 2026-01-05 | Docs test API key note | `SPRING_AI_OPENAI_API_KEY=dummy mvn -q test` | Clean | Codex | Branch coverage 89.6% (below 90% target); vawk test not run (no AWK changes). |

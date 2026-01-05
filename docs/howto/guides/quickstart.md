@@ -1,6 +1,7 @@
 # VAWK Quickstart
 
 **BLUF:** Build the CLI, run chat in stub mode (no key), and optionally wire a real chat model. Includes the wrapper script so `vawk` is easy to invoke from any directory.
+Last verified: 2026-01-05
 
 ## 1) Prerequisites
 - Java 17+
@@ -50,6 +51,6 @@ vawk chat --one-shot "Explain what FS does in awk"
 
 ## 7) Tests
 ```sh
-mvn -q test
+SPRING_AI_OPENAI_API_KEY=dummy mvn -q test
 ```
-Includes chat intent/validation, promotion, RAG prompting, and AWK runners.
+Includes chat intent/validation, promotion, RAG prompting, and AWK runners. `SPRING_AI_OPENAI_API_KEY` is required to satisfy Spring AI autoconfig (dummy is OK if you are using the stub).

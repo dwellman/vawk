@@ -65,7 +65,7 @@ This is a request for credit, not a legal requirement. Please see the LICENSE fi
 - Jobs: `vawk/jobs/<name>/script.awk`, `spec.yaml` (contains sessionId/turnIdx/plan/tests/promotedAt).
 
 ## Tests
-- Run all: `mvn -q test`
+- Run all (requires `SPRING_AI_OPENAI_API_KEY`; dummy is OK to satisfy Spring AI autoconfig): `SPRING_AI_OPENAI_API_KEY=dummy mvn -q test`
 - Includes intent detection, structured chat (one-shot/REPL), AGENTS prompt loading, promotion flow, and AWK runners.
 
 ## Quick Start Examples

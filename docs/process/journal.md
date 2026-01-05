@@ -11,6 +11,11 @@ Legacy table-format logs live under `docs/process/journal-archive/` for referenc
 - Scope: Removed absolute paths from standards and housekeeping docs; pointed to workspace-configured locations.
 - Tests: Not run (docs-only change).
 
+## 2026-01-05 — Docs test API key note
+- Scope: Documented API key requirement for running tests in README and quickstart/getting-started guides; added Last verified stamps.
+- Tests: `SPRING_AI_OPENAI_API_KEY=dummy mvn -q test`
+- Coverage: JaCoCo Instruction 94.8%, Branch 89.6%, Line 94.7% (`target/site/jacoco/index.html`); branch below 90% target.
+
 ## 2025-12-26 — Docs alignment and coverage
 - Scope: Aligned docs structure (index, runbook index, glossary, ADR stubs) and moved guides under `docs/`; updated README references.
 - Tests: Not run (docs-only changes).

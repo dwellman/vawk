@@ -1,4 +1,5 @@
 # Getting Started (VAWK)
+Last verified: 2026-01-05
 
 ## Prereqs
 - Java 17, Maven.
@@ -6,7 +7,7 @@
 
 ## Build & test
 - Build: `mvn -q package spring-boot:repackage`
-- Tests: `mvn -q test`
+- Tests (requires `SPRING_AI_OPENAI_API_KEY`; dummy is OK to satisfy Spring AI autoconfig): `SPRING_AI_OPENAI_API_KEY=dummy mvn -q test`
 
 ## Chat
 - One-shot explain: `SPRING_MAIN_WEB_APPLICATION_TYPE=none java -jar target/vawk-0.2.0-SNAPSHOT.jar chat --one-shot "Explain what FS does in awk"`
