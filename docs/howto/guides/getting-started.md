@@ -3,7 +3,7 @@ Last verified: 2026-01-05
 
 ## Prereqs
 - Java 17, Maven.
-- **REQUIRED**: model API key if using a live LLM (otherwise run stub mode).
+- **REQUIRED**: model API key.
 
 ## Build & test
 - Build: `mvn -q package spring-boot:repackage`
