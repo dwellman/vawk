@@ -1,6 +1,6 @@
 # Docs Style Standard
 
-**BLUF:** The `docs/` folder is a first-class language for humans and AI. Every important behavior, invariant, and proof-of-work must be captured here in clear, numbered Markdown that is easy to chunk for RAG. Also follow the workspace standards in `/Users/dwellman/workspace/demo/PROCESS.md`. Audience: all contributors.
+**BLUF:** The `docs/` folder is a first-class language for humans and AI. Every important behavior, invariant, and proof-of-work must be captured here in clear, numbered Markdown that is easy to chunk for RAG. Also follow the workspace standards in `PROCESS.md` (if present at the workspace root). Audience: all contributors.
 
 ## 1) Purpose
 Define how we write, structure, and maintain documents under `docs/` so they stay authoritative and AI-friendly.

@@ -1,6 +1,6 @@
 # Java Style Standard
 
-**BLUF:** Follow Google Java Style for formatting, with a project addendum that requires prompt-friendly class comments, public-method summaries, no abbreviations, and classes that read top-to-bottom “like a book.” Also follow the workspace standards in `/Users/dwellman/workspace/demo/PROCESS.md`. Audience: all Java contributors and AI agents emitting Java.
+**BLUF:** Follow Google Java Style for formatting, with a project addendum that requires prompt-friendly class comments, public-method summaries, no abbreviations, and classes that read top-to-bottom “like a book.” Also follow the workspace standards in `PROCESS.md` (if present at the workspace root). Audience: all Java contributors and AI agents emitting Java.
 
 ## 1) Purpose
 Define the Java coding standard for VAWK so humans and AI produce consistent, readable code.

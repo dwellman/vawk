@@ -7,6 +7,10 @@ Legacy table-format logs live under `docs/process/journal-archive/` for referenc
 - Scope: Repackaged the boot jar to run the CLI wrapper and verified `vawk test`.
 - Tests: `mvn -q test`; `mvn -q package spring-boot:repackage`; `SPRING_AI_OPENAI_API_KEY=dummy ./bin/vawk test`
 
+## 2026-01-04 — Docs absolute path cleanup
+- Scope: Removed absolute paths from standards and housekeeping docs; pointed to workspace-configured locations.
+- Tests: Not run (docs-only change).
+
 ## 2025-12-26 — Docs alignment and coverage
 - Scope: Aligned docs structure (index, runbook index, glossary, ADR stubs) and moved guides under `docs/`; updated README references.
 - Tests: Not run (docs-only changes).

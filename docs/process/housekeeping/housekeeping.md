@@ -1,10 +1,9 @@
 # Housekeeping (VAWK)
 
-Last verified: 2026-01-02
+Last verified: 2026-01-04
 
-The shared housekeeping playbook lives at:
-
-/Users/dwellman/workspace/unna/shared-instructions/housekeeping.md
+The shared housekeeping playbook lives in the workspace shared-instructions folder
+(see the workspace PROCESS.md or environment config for its location).
 
 Local notes:
 - Log cleanup sweeps in `docs/process/housekeeping/cleaning.log`.
